@@ -1,0 +1,19 @@
+.todo {
+  line-height: 15px;
+  background-color: #fff;
+  text-align: left;
+  font-size: 15px;
+  margin: 5px 0 5px 0;
+}
+
+.todo-check {
+  font-weight: bold;
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  margin-right: 10px;
+  padding: 0;
+  text-align: center;
+  height: 15px;
+  width: 15px;
+}
