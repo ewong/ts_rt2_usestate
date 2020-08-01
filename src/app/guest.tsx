@@ -2,15 +2,17 @@ import React from "react";
 import "./guest.css";
 
 interface IProps {
-  pic: String;
+  pic: string;
   guestName: String;
+  removeGuest: () => void;
 }
 
-export const Guest: React.FC<IProps> = ({ pic, guestName }) => {
+export const Guest: React.FC<IProps> = ({ pic, guestName, removeGuest }) => {
   return (
     <div className="guest-div">
-      <div className="guest-pic">{pic}</div>
+      <img className="guest-pic" src={pic} alt=""/>
       <div className="guest-name">{guestName}</div>
+      <button className="guest-remove" onClick={removeGuest}>X</button>
     </div>
   );
 };
