@@ -1,4 +1,4 @@
-.todo {
+.guest-div {
   line-height: 15px;
   background-color: #fff;
   text-align: left;
@@ -6,7 +6,7 @@
   margin: 5px 0 5px 0;
 }
 
-.todo-check {
+.guest-pic {
   font-weight: bold;
   background: #fff;
   border: 1px solid #999;
@@ -16,4 +16,8 @@
   text-align: center;
   height: 15px;
   width: 15px;
+}
+
+.guest-name {
+  
 }

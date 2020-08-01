@@ -1,10 +1,10 @@
-.add-todo-text {
+.add-guest-text {
   float: left;
   margin-right: 5px;
   margin-top: 2px;
 }
 
-.add-todo-button {
+.add-guest-button {
   font-weight: bold;
   background: #fff;
   border: 1px solid #999;
