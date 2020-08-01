@@ -1,14 +1,16 @@
 .add-guest-text {
   margin-right: 15px;
-  width: 370px;
+  width: 350px;
   height: 30px;
-  border-radius: 8px;
-  border: 1px solid gray;
-  font-size: 30px;
+  border-radius: 15px;
+  border: 2px solid #dbdbdb;
+  font-size: 16px;
+  padding: 5px;
+  padding-left: 20px;
 }
 
 .add-guest-button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   border: none;
   color: white;
   padding: 10px 32px;
