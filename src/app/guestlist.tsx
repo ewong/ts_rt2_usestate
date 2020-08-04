@@ -42,5 +42,3 @@ export const GuestList: React.FC = () => {
     </div>
   );
 };
-
-export default GuestList;
